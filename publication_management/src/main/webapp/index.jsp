@@ -17,7 +17,7 @@
 
     <body>
         <div class="form-structor">
-            <input type="button" value="user" onclick="window.location='user.jsp'" >
+            <input type="button" value="user" onclick="window.location='user_index.jsp'" >
             <input type="button" value="conference" onclick="window.location='conference.jsp'" >
             
         </div>
