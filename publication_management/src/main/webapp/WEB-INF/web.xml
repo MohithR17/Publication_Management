@@ -5,7 +5,35 @@
     </welcome-file-list>
     <servlet>
         <servlet-name>Login</servlet-name>
-        <servlet-class>com.ooad.publication_mangement.user.Login</servlet-class>
+        <servlet-class>com.ooad.publication_mangement.Login</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>Handle_Premium</servlet-name>
+        <servlet-class>com.ooad.publication_mangement.Handle_Premium</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>Avatar</servlet-name>
+        <servlet-class>com.ooad.publication_mangement.Avatar</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>Search</servlet-name>
+        <servlet-class>com.ooad.publication_mangement.Search</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>Conference_Login</servlet-name>
+        <servlet-class>com.ooad.publication_management.conference.Conference_Login</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>Conference_Home</servlet-name>
+        <servlet-class>com.ooad.publication_management.conference.Conference_Home</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>Download</servlet-name>
+        <servlet-class>com.ooad.publication_mangement.Download</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>Download_paper</servlet-name>
+        <servlet-class>com.ooad.publication_mangement.Download_paper</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>Login</servlet-name>
@@ -13,11 +41,39 @@
     </servlet-mapping>
     <servlet>
         <servlet-name>SignUp</servlet-name>
-        <servlet-class>com.ooad.publication_mangement.user.SignUp</servlet-class>
+        <servlet-class>com.ooad.publication_mangement.SignUp</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>SignUp</servlet-name>
         <url-pattern>/SignUp</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>Handle_Premium</servlet-name>
+        <url-pattern>/Handle_Premium</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>Avatar</servlet-name>
+        <url-pattern>/Avatar</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>Search</servlet-name>
+        <url-pattern>/Search</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>Conference_Login</servlet-name>
+        <url-pattern>/Conference_Login</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>Conference_Home</servlet-name>
+        <url-pattern>/Conference_Home</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>Download</servlet-name>
+        <url-pattern>/Download</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>Download_paper</servlet-name>
+        <url-pattern>/Download_paper</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>
